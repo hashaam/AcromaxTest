@@ -1,0 +1,6 @@
+framework module Pods_AcromaxTask {
+  umbrella header "Pods-AcromaxTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AcromaxTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qbd-aS-YnI" customClass="CircularProgressView" customModule="AcromaxTask" customModuleProvider="target">
+                                <rect key="frame" x="112" y="258" width="150" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="GQi-6q-qAH"/>
+                                    <constraint firstAttribute="height" constant="150" id="xg3-8Z-Uqr"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuV-Hz-oHS">
+                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="FOo-Vv-gHI"/>
+                                    <constraint firstAttribute="width" constant="150" id="rDm-4N-haw"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="actionButtonHandlerWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EQa-Tp-HH9"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Play Icon" translatesAutoresizingMaskIntoConstraints="NO" id="DHy-61-EN6">
+                                <rect key="frame" x="162" y="308" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FUC-9b-rYL"/>
+                                    <constraint firstAttribute="width" constant="50" id="cMK-wh-Ob1"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Jeg-M0-Cof">
+                                <rect key="frame" x="177" y="323" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uninitialized" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDC-PS-ysO">
+                                <rect key="frame" x="140.5" y="424" width="93.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Jeg-M0-Cof" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9iS-iO-m2u"/>
+                            <constraint firstItem="AuV-Hz-oHS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BCU-aA-S7F"/>
+                            <constraint firstItem="Qbd-aS-YnI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CFG-36-QBu"/>
+                            <constraint firstItem="IDC-PS-ysO" firstAttribute="top" secondItem="AuV-Hz-oHS" secondAttribute="bottom" constant="15" id="NKi-Ph-rDl"/>
+                            <constraint firstItem="DHy-61-EN6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="byO-9C-WXd"/>
+                            <constraint firstItem="Jeg-M0-Cof" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kgt-Ch-MkU"/>
+                            <constraint firstItem="Qbd-aS-YnI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pgc-jx-SiD"/>
+                            <constraint firstItem="AuV-Hz-oHS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wh9-85-Aus"/>
+                            <constraint firstItem="DHy-61-EN6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x9y-ed-5FU"/>
+                            <constraint firstItem="IDC-PS-ysO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xdf-F0-5OX"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Z08-wU-iQf" appends="YES" id="Iic-hz-kxu"/>
+                            <outletCollection property="gestureRecognizers" destination="Am5-db-ih1" appends="YES" id="N6q-WO-fbN"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="actionButton" destination="AuV-Hz-oHS" id="edx-EC-q3J"/>
+                        <outlet property="actionImageView" destination="DHy-61-EN6" id="AP2-WT-vh5"/>
+                        <outlet property="activityIndicatorView" destination="Jeg-M0-Cof" id="uPW-aZ-OVW"/>
+                        <outlet property="circularProgressView" destination="Qbd-aS-YnI" id="iVC-ay-ocm"/>
+                        <outlet property="stateLabel" destination="IDC-PS-ysO" id="QMa-v0-cXr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Z08-wU-iQf">
+                    <connections>
+                        <action selector="swipeHandlerWithSwipeGestureRecognizer:" destination="BYZ-38-t0r" id="bTb-Hg-pgH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="Am5-db-ih1">
+                    <connections>
+                        <action selector="swipeHandlerWithSwipeGestureRecognizer:" destination="BYZ-38-t0r" id="mpC-P3-cEd"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Play Icon" width="78" height="100"/>
+    </resources>
+</document>

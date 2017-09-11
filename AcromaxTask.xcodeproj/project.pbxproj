@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FC563E0B01FAC983AAFEBCF /* Pods_AcromaxTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F743022D1E440608B28595C0 /* Pods_AcromaxTask.framework */; };
+		CF0920761F5AC78C005B2D72 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0920741F5AC78C005B2D72 /* NetworkOperation.swift */; };
+		CF0920771F5AC78C005B2D72 /* CustomOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0920751F5AC78C005B2D72 /* CustomOperation.swift */; };
+		CF09207A1F5AC8D6005B2D72 /* PlaylistResultHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0920791F5AC8D6005B2D72 /* PlaylistResultHandling.swift */; };
+		CF09207C1F5AD18A005B2D72 /* ChunkListResultHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09207B1F5AD18A005B2D72 /* ChunkListResultHandling.swift */; };
+		CF09207F1F5AF9DA005B2D72 /* StructModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09207E1F5AF9DA005B2D72 /* StructModels.swift */; };
+		CF0C2B911F5D1EB0002325E6 /* FileDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0C2B901F5D1EB0002325E6 /* FileDownloadOperation.swift */; };
+		CF227A951F5E794200479F99 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF227A941F5E794200479F99 /* CircularProgressView.swift */; };
+		CFB1E0EE1F59E27300EA10C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E0ED1F59E27300EA10C2 /* AppDelegate.swift */; };
+		CFB1E0F01F59E27300EA10C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E0EF1F59E27300EA10C2 /* ViewController.swift */; };
+		CFB1E0F31F59E27300EA10C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB1E0F11F59E27300EA10C2 /* Main.storyboard */; };
+		CFB1E0F51F59E27300EA10C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB1E0F41F59E27300EA10C2 /* Assets.xcassets */; };
+		CFB1E0F81F59E27300EA10C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB1E0F61F59E27300EA10C2 /* LaunchScreen.storyboard */; };
+		CFB1E1001F59EF8000EA10C2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E0FF1F59EF8000EA10C2 /* ViewModel.swift */; };
+		CFB1E1021F59F01E00EA10C2 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E1011F59F01E00EA10C2 /* AppConfig.swift */; };
+		CFB1E1041F59F5A100EA10C2 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1E1031F59F5A100EA10C2 /* Core.swift */; };
+		CFC5386E1F6720D900598FCA /* piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFC5386D1F67208B00598FCA /* piano.m4a */; };
+		CFC538701F67281D00598FCA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = CFC5386F1F67281D00598FCA /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5215604BE96F3784382A3ED8 /* Pods-AcromaxTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcromaxTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcromaxTask/Pods-AcromaxTask.debug.xcconfig"; sourceTree = "<group>"; };
+		CF0920741F5AC78C005B2D72 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		CF0920751F5AC78C005B2D72 /* CustomOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOperation.swift; sourceTree = "<group>"; };
+		CF0920791F5AC8D6005B2D72 /* PlaylistResultHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistResultHandling.swift; sourceTree = "<group>"; };
+		CF09207B1F5AD18A005B2D72 /* ChunkListResultHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChunkListResultHandling.swift; sourceTree = "<group>"; };
+		CF09207E1F5AF9DA005B2D72 /* StructModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructModels.swift; sourceTree = "<group>"; };
+		CF0C2B901F5D1EB0002325E6 /* FileDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDownloadOperation.swift; sourceTree = "<group>"; };
+		CF227A941F5E794200479F99 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		CF503DDB1F6124D900E7E7D0 /* libGPAC4iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGPAC4iOS.a; sourceTree = "<group>"; };
+		CF74E98F1F607FDE0032BA26 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CFB1E0EA1F59E27300EA10C2 /* AcromaxTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcromaxTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB1E0ED1F59E27300EA10C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFB1E0EF1F59E27300EA10C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFB1E0F21F59E27300EA10C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB1E0F41F59E27300EA10C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB1E0F71F59E27300EA10C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFB1E0F91F59E27300EA10C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB1E0FF1F59EF8000EA10C2 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CFB1E1011F59F01E00EA10C2 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		CFB1E1031F59F5A100EA10C2 /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		CFC5386D1F67208B00598FCA /* piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = piano.m4a; sourceTree = "<group>"; };
+		CFC5386F1F67281D00598FCA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		E84F2B64C6646D66777C31EA /* Pods-AcromaxTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcromaxTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcromaxTask/Pods-AcromaxTask.release.xcconfig"; sourceTree = "<group>"; };
+		F743022D1E440608B28595C0 /* Pods_AcromaxTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcromaxTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB1E0E71F59E27300EA10C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC563E0B01FAC983AAFEBCF /* Pods_AcromaxTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111C79B43BBD4DAD1B2611A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF503DDB1F6124D900E7E7D0 /* libGPAC4iOS.a */,
+				CF74E98F1F607FDE0032BA26 /* libz.tbd */,
+				F743022D1E440608B28595C0 /* Pods_AcromaxTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF0920731F5AC77D005B2D72 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				CF0920741F5AC78C005B2D72 /* NetworkOperation.swift */,
+				CF0920751F5AC78C005B2D72 /* CustomOperation.swift */,
+				CF0C2B901F5D1EB0002325E6 /* FileDownloadOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		CF0920781F5AC8C7005B2D72 /* Result Handling */ = {
+			isa = PBXGroup;
+			children = (
+				CF0920791F5AC8D6005B2D72 /* PlaylistResultHandling.swift */,
+				CF09207B1F5AD18A005B2D72 /* ChunkListResultHandling.swift */,
+			);
+			path = "Result Handling";
+			sourceTree = "<group>";
+		};
+		CF09207D1F5AF9D1005B2D72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF09207E1F5AF9DA005B2D72 /* StructModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF227A931F5E793300479F99 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF227A941F5E794200479F99 /* CircularProgressView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		CFB1E0E11F59E27300EA10C2 = {
+			isa = PBXGroup;
+			children = (
+				CFB1E0EC1F59E27300EA10C2 /* AcromaxTask */,
+				CFB1E0EB1F59E27300EA10C2 /* Products */,
+				D32151396C48A893B3A19CFE /* Pods */,
+				111C79B43BBD4DAD1B2611A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB1E0EB1F59E27300EA10C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB1E0EA1F59E27300EA10C2 /* AcromaxTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB1E0EC1F59E27300EA10C2 /* AcromaxTask */ = {
+			isa = PBXGroup;
+			children = (
+				CFC5386D1F67208B00598FCA /* piano.m4a */,
+				CF227A931F5E793300479F99 /* Custom Views */,
+				CF09207D1F5AF9D1005B2D72 /* Models */,
+				CF0920781F5AC8C7005B2D72 /* Result Handling */,
+				CF0920731F5AC77D005B2D72 /* Operations */,
+				CFB1E0ED1F59E27300EA10C2 /* AppDelegate.swift */,
+				CFB1E0EF1F59E27300EA10C2 /* ViewController.swift */,
+				CFB1E0F11F59E27300EA10C2 /* Main.storyboard */,
+				CFB1E0F41F59E27300EA10C2 /* Assets.xcassets */,
+				CFB1E0F61F59E27300EA10C2 /* LaunchScreen.storyboard */,
+				CFB1E0F91F59E27300EA10C2 /* Info.plist */,
+				CFB1E0FF1F59EF8000EA10C2 /* ViewModel.swift */,
+				CFB1E1011F59F01E00EA10C2 /* AppConfig.swift */,
+				CFB1E1031F59F5A100EA10C2 /* Core.swift */,
+				CFC5386F1F67281D00598FCA /* README.txt */,
+			);
+			path = AcromaxTask;
+			sourceTree = "<group>";
+		};
+		D32151396C48A893B3A19CFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5215604BE96F3784382A3ED8 /* Pods-AcromaxTask.debug.xcconfig */,
+				E84F2B64C6646D66777C31EA /* Pods-AcromaxTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB1E0E91F59E27300EA10C2 /* AcromaxTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB1E0FC1F59E27300EA10C2 /* Build configuration list for PBXNativeTarget "AcromaxTask" */;
+			buildPhases = (
+				D20B7BDEBF8461C911F2CAF6 /* [CP] Check Pods Manifest.lock */,
+				CFB1E0E61F59E27300EA10C2 /* Sources */,
+				CFB1E0E71F59E27300EA10C2 /* Frameworks */,
+				CFB1E0E81F59E27300EA10C2 /* Resources */,
+				1146C52E3EF228662B3E3898 /* [CP] Embed Pods Frameworks */,
+				4EECD059A037DC7C8A32A4AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcromaxTask;
+			productName = AcromaxTask;
+			productReference = CFB1E0EA1F59E27300EA10C2 /* AcromaxTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB1E0E21F59E27300EA10C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hashaam;
+				TargetAttributes = {
+					CFB1E0E91F59E27300EA10C2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DGZ94FWHH5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFB1E0E51F59E27300EA10C2 /* Build configuration list for PBXProject "AcromaxTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB1E0E11F59E27300EA10C2;
+			productRefGroup = CFB1E0EB1F59E27300EA10C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB1E0E91F59E27300EA10C2 /* AcromaxTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB1E0E81F59E27300EA10C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC5386E1F6720D900598FCA /* piano.m4a in Resources */,
+				CFB1E0F81F59E27300EA10C2 /* LaunchScreen.storyboard in Resources */,
+				CFB1E0F51F59E27300EA10C2 /* Assets.xcassets in Resources */,
+				CFB1E0F31F59E27300EA10C2 /* Main.storyboard in Resources */,
+				CFC538701F67281D00598FCA /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1146C52E3EF228662B3E3898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AcromaxTask/Pods-AcromaxTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcromaxTask/Pods-AcromaxTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EECD059A037DC7C8A32A4AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcromaxTask/Pods-AcromaxTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20B7BDEBF8461C911F2CAF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcromaxTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB1E0E61F59E27300EA10C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB1E0F01F59E27300EA10C2 /* ViewController.swift in Sources */,
+				CFB1E1021F59F01E00EA10C2 /* AppConfig.swift in Sources */,
+				CF09207F1F5AF9DA005B2D72 /* StructModels.swift in Sources */,
+				CFB1E1001F59EF8000EA10C2 /* ViewModel.swift in Sources */,
+				CF0920761F5AC78C005B2D72 /* NetworkOperation.swift in Sources */,
+				CF09207C1F5AD18A005B2D72 /* ChunkListResultHandling.swift in Sources */,
+				CFB1E1041F59F5A100EA10C2 /* Core.swift in Sources */,
+				CF0C2B911F5D1EB0002325E6 /* FileDownloadOperation.swift in Sources */,
+				CF09207A1F5AC8D6005B2D72 /* PlaylistResultHandling.swift in Sources */,
+				CF0920771F5AC78C005B2D72 /* CustomOperation.swift in Sources */,
+				CF227A951F5E794200479F99 /* CircularProgressView.swift in Sources */,
+				CFB1E0EE1F59E27300EA10C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFB1E0F11F59E27300EA10C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB1E0F21F59E27300EA10C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB1E0F61F59E27300EA10C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB1E0F71F59E27300EA10C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB1E0FA1F59E27300EA10C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFB1E0FB1F59E27300EA10C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB1E0FD1F59E27300EA10C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5215604BE96F3784382A3ED8 /* Pods-AcromaxTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGZ94FWHH5;
+				HEADER_SEARCH_PATHS = "/Users/hashaam/Downloads/GPAC4iOS-master/Classes/include";
+				INFOPLIST_FILE = AcromaxTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashaam.AcromaxTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFB1E0FE1F59E27300EA10C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84F2B64C6646D66777C31EA /* Pods-AcromaxTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGZ94FWHH5;
+				HEADER_SEARCH_PATHS = "/Users/hashaam/Downloads/GPAC4iOS-master/Classes/include";
+				INFOPLIST_FILE = AcromaxTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hashaam.AcromaxTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB1E0E51F59E27300EA10C2 /* Build configuration list for PBXProject "AcromaxTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB1E0FA1F59E27300EA10C2 /* Debug */,
+				CFB1E0FB1F59E27300EA10C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB1E0FC1F59E27300EA10C2 /* Build configuration list for PBXNativeTarget "AcromaxTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB1E0FD1F59E27300EA10C2 /* Debug */,
+				CFB1E0FE1F59E27300EA10C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB1E0E21F59E27300EA10C2 /* Project object */;
+}
